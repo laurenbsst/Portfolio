@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 .navBar {
     background-color:aliceblue;
     display: flex;
@@ -5,6 +8,7 @@
     flex-wrap:wrap;
 }
 .navBarText {
+    font-family: 'Raleway', sans-serif;
     padding-left: 1rem;
 }
 #hero {
@@ -17,6 +21,7 @@
     align-items: center;
 }
 .heroTitle {
+    font-family: 'Bree Serif', serif;
     text-align: center;
     position: absolute;
     top: 11rem;
@@ -25,6 +30,8 @@
 .heroSubtitle {
     text-align: center;
     color: azure;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
 }
 .media {
     position: absolute;
@@ -36,14 +43,15 @@ ul {
 }
 li {
     list-style: none;
-    margin: 0.5rem 1rem;
+    margin: 1rem 1rem;
     display: inline-block;
     font-size: 1rem;
-    padding: 0.3rem 0.4rem;
+    padding: 0.2rem 0.4rem;
     color: azure;
     border: 1px solid azure;
     border-radius: 100%;
     transition: .5s;
+    font-size: 1.3rem;
 }
 li:hover {
     color: #292929;
