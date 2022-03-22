@@ -85,7 +85,7 @@ body {
     justify-content: center;
 }
 #about {
-    height: 50vh;
+    height: 70vh;
     text-align: center;
 }
 .aboutTitle {
@@ -100,6 +100,44 @@ body {
 }
 .aboutText {
     font-family: 'Raleway', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: azure;
+}
+#skills {
+    display: flex;
+    justify-content: center;
+}
+.subtitle {
+    font-family: 'Bree Serif', serif;
+    color: azure;
+
+}
+.skillsIconsContainer {
+    display: flex;
+    justify-content: center;
+}
+.skillsIcons {
+    width: 100%;
+}
+.skillsIcon {
+    list-style: none;
+    margin: 0.5rem 0rem;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.2rem 0.4rem;
+    color: azure;
+    font-size: 3rem;
+}
+.skillsIconsText {
+    display: block;
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+#projects {
+    display: flex;
+    justify-content: center;
+}
+.project {
+    
 }
