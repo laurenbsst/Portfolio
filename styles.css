@@ -4,14 +4,21 @@
 html, body {
     margin: 0px;
 }
+.navContainer {
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
 .navBar {
-    background-color:aliceblue;
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    position: absolute;
+    left: 2.5rem;
+    width: 100%;
 }
 .navBarText {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Bree Serif', serif;
+    color: azure;
     font-size: 0.9rem;
     padding-left: 0.8rem;
 }
@@ -68,7 +75,7 @@ html, body {
     transition: .5s;
 }
 #about {
-    background-color: cornflowerblue;
+    background-color: #5c99ab;
     height: 35vh;
     width: 100%;
     margin-top: 0;
