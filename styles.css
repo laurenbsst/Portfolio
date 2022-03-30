@@ -76,9 +76,11 @@ html, body {
 }
 #about {
     background-color: #5c99ab;
-    height: 35vh;
+    height: 65vh;
     width: 100%;
     margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
 }
 .dot {
     display: inline-block;
@@ -92,15 +94,12 @@ html, body {
     display: flex;
     justify-content: center;
 }
-#about {
-    height: 70vh;
-    text-align: center;
-    margin-bottom: 2rem;
-}
 .aboutTitle {
     font-family: 'Bree Serif', serif;
     color: azure;
     margin-left: 0.5rem;
+    margin-top: 0;
+    padding-top: 1rem;
 }
 .picOfMe {
     height: 7rem;
@@ -115,6 +114,7 @@ html, body {
 #skills {
     display: flex;
     justify-content: center;
+    background-color: #5c99ab;
 }
 .subtitle {
     font-family: 'Bree Serif', serif;
@@ -124,6 +124,7 @@ html, body {
 .skillsIconsContainer {
     display: flex;
     justify-content: center;
+    background-color: #5c99ab;
 }
 .skillsIcons {
     width: 100%;
@@ -133,7 +134,7 @@ html, body {
     margin: 0.5rem 0rem;
     display: inline-block;
     font-size: 1rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.2rem 0.5rem;
     color: azure;
     font-size: 3rem;
 }
@@ -146,41 +147,46 @@ html, body {
 #projects {
     display: flex;
     justify-content: center;
+    background-color: #5c99ab;
 }
 .projectsContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 2rem;
+    background-color: #5c99ab;
 }
 .projectOne {
     display: flex;
-    background-color: azure;
+    background-color: #D1D1D1;
     height: 55vh;
-    width: 100vh;
+    width: 55vh;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    border-radius: 15%;
+    margin-top: 2rem;
 }
 .projectTwo {
-    background-color: azure;
     display: flex;
+    background-color: #D1D1D1;
     height: 55vh;
-    width: 100vh;
+    width: 55vh;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    border-radius: 15%;
     margin-top: 2rem;
 }
 .projectThree {
-    background-color: azure;
     display: flex;
+    background-color: #D1D1D1;
     height: 55vh;
-    width: 100vh;
+    width: 55vh;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    border-radius: 15%;
     margin-top: 2rem;
 }
 .projectIcon {
