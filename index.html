@@ -13,10 +13,18 @@
 <body>
     <div class="navContainer">
         <div class="navBar">
-            <p class="navBarText">Home</p>
-            <p class="navBarText">About</p>
-            <p class="navBarText">Projects</p>
-            <p class="navBarText">Contact</p>
+            <a href="">
+                <p class="navBarText">Home</p>
+            </a>
+            <a href="#about">
+                <p class="navBarText">About</p>
+            </a>
+            <a href="#projects">
+                <p class="navBarText">Projects</p>
+            </a>
+            <a href="#contact">
+                <p class="navBarText">Contact</p>
+            </a>
         </div>
     </div>
 
@@ -48,24 +56,33 @@
             justo. Cras arcu massa, porta et ipsum rutrum, eleifend dignissim quam..</p>
     </div>
 
-    <div id="skills">
-        <h2 class="subtitle">Skills</h2>
+    <div class="skew">
+        <div id="skills">
+            <h2 class="skillsSubtitle">Skills</h2>
+        </div>
+        <div class="skillsIconsContainer">
+            <ul class="skillsIcons">
+                <li class="skillsIcon"><i class="fa-brands fa-html5"></i><span class="skillsIconsText">3 years</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-js"></i><span class="skillsIconsText">1 year</span></li>
+                <li class="skillsIcon"><i class="fa-brands fa-css3-alt"></i><span class="skillsIconsText">3 years</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-github"></i><span class="skillsIconsText">3 years</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-react"></i><span class="skillsIconsText"> &lt 1
+                        year</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-figma"></i><span class="skillsIconsText"> &lt 1
+                        year</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-java"></i><span class="skillsIconsText">2 years</span>
+                </li>
+                <li class="skillsIcon"><i class="fa-brands fa-python"></i><span class="skillsIconsText">4 years</span>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="skillsIconsContainer">
-        <ul class="skillsIcons">
-            <li class="skillsIcon"><i class="fa-brands fa-html5"></i><span class="skillsIconsText">3 years</span></li>
-            <li class="skillsIcon"><i class="fa-brands fa-js"></i><span class="skillsIconsText">1 year</span></li>
-            <li class="skillsIcon"><i class="fa-brands fa-css3-alt"></i><span class="skillsIconsText">3 years</span>
-            </li>
-            <li class="skillsIcon"><i class="fa-brands fa-github"></i><span class="skillsIconsText">3 years</span></li>
-            <li class="skillsIcon"><i class="fa-brands fa-react"></i><span class="skillsIconsText"> &lt 1 year</span>
-            </li>
-            <li class="skillsIcon"><i class="fa-brands fa-figma"></i><span class="skillsIconsText"> &lt 1 year</span>
-            </li>
-            <li class="skillsIcon"><i class="fa-brands fa-java"></i><span class="skillsIconsText">2 years</span></li>
-            <li class="skillsIcon"><i class="fa-brands fa-python"></i><span class="skillsIconsText">4 years</span></li>
-        </ul>
-    </div>
+
 
     <div id="projects">
         <h2 class="subtitle">Projects</h2>
@@ -124,18 +141,21 @@
             </div>
         </div>
     </div>
-    <div id="contact">
-        <h2 class="subtitle">Get in Touch</h2>
-        <p class="contactText">I'm looking for front-end internship opportunities. Reach out if you want to work with
-            me, or just say hi!</p>
-        <a href="mailto:laurenb252@outlook.com">
-            <div class="contactButton">
-                <p class="contactText">Say Hello</p>
-            </div>
-        </a>
+    <div class="skew2">
+        <div id="contact">
+            <h2 class="subtitle" style="margin-top: 2rem;">Get in Touch</h2>
+            <p class="contactText">I'm looking for front-end internship opportunities. Reach out if you want to work
+                with
+                me, or just say hi!</p>
+            <a href="mailto:laurenb252@outlook.com">
+                <div class="contactButton">
+                    <p class="contactText">Say Hello</p>
+                </div>
+            </a>
+        </div>
     </div>
     <div class="footer">
-        <a>
+        <a href="#hero">
             <div class="backToTop">
                 <i class="fa-solid fa-arrow-up"></i>
             </div>
