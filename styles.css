@@ -3,7 +3,10 @@
 
 html,
 body {
+    width: 100%;
     margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
     background-color: #5c99ab;
 }
 
@@ -65,19 +68,20 @@ a {
 
 .socialIcons {
     width: 15rem;
+    display: flex;
 }
 
 .icon {
     list-style: none;
-    margin: 1rem 1rem;
+    margin-left: 1rem;
+    margin-right: 0.2rem;
     display: inline-block;
-    font-size: 1rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.3rem 0.5rem;
     color: azure;
     border: 1px solid azure;
     border-radius: 100%;
     transition: .5s;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 
 .icon:hover {
@@ -339,12 +343,38 @@ a {
     font-size: 1rem;
     background-color: azure;
 }
-
 .skew {
     transform: skewY(5deg);
 }
-
 .skew2 {
     transform: skewY(-5deg);
     background-color: #99AB5C;
+}
+@media screen and (min-width: 1600px) and (min-height: 992px){
+    .heroTitle {
+        font-size: 5rem;
+    }
+    .heroSubtitle {
+        font-size: 2rem;
+        margin-top: -1rem;
+    }
+    .icon {
+        font-size: 4rem;
+        padding: 0.3rem 1rem;
+        margin-right: 1rem;
+    }
+    .media {
+        margin-right: 10rem;
+    }
+    
+
+}
+@media screen and (max-width: 1280px) and (max-height: 802px){
+
+}
+@media screen and (max-width: 768px) and (max-height: 1024px){
+
+}
+@media screen and (max-width: 320px) and (max-height: 480px){
+
 }
