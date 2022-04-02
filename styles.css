@@ -332,6 +332,11 @@ a {
     #contact {
         height: 45vh;
     }
+
+    .project {
+        height: 55vh;
+        width: 50vh;
+    }
 }
 
 @media screen and (min-width: 544px) {
@@ -352,28 +357,80 @@ a {
     }
 }
 
+@media screen and (min-width: 414px) {
+    #about {
+        height: 55vh;
+    }
+
+    .aboutTitle {
+        font-size: 1.5rem;
+    }
+
+    .skillsIcons {
+        padding: 0;
+    }
+
+    .skillsSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .skillsIcon {
+        font-size: 2rem;
+    }
+
+    #skills {
+        height: 40vh;
+    }
+
+    #contact {
+        height: 45vh;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .project {
+        width: 50vh;
+        height: 45vh;
+    }
+
+    .contactText {
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width: 654px) {
     #about {
         height: 55vh;
     }
 
+    #skills {
+        height: 30vh;
+    }
+
     .skillsIcons {
-        width: 70%;
+        width: 100%;
         padding: 0;
     }
 
     .skillsIcon {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     #contact {
-        height: 30vh;
+        height: 40vh;
     }
 }
 
-@media screen and (min-width: 926px) {
-    #about {
-        height: 55vh;
+@media screen and (min-width: 696px) {
+    .project {
+        width: 45vh;
+        margin: 1rem;
+    }
+
+    #skills {
+        height: 35vh;
     }
 
     .aboutTitle {
@@ -381,34 +438,40 @@ a {
     }
 
     .aboutText {
-        font-size: 1.5rem;
-    }
-
-    .skillsIcons {
-        width: 70%;
-        padding: 0;
+        font-size: 1rem;
     }
 
     .skillsSubtitle {
         font-size: 2rem;
     }
 
-    .skillsIcon {
-        font-size: 5rem;
+    .subtitle {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 926px) {
+    #about {
+        height: 50vh;
     }
 
-    .skillsIconsText {
-        font-size: 1.5rem;
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .skillsIcon {
+        font-size: 4.5rem;
     }
 
     #contact {
-        height: 30vh;
+        height: 35vh;
     }
+
 }
 
 @media screen and (min-width: 1032px) {
     #about {
-        height: 55vh;
+        height: 60vh;
     }
 
     .aboutTitle {
@@ -439,11 +502,16 @@ a {
 
 @media screen and (min-width: 1280px) {
     #about {
-        height: 65vh;
+        height: 70vh;
     }
 
     .aboutTitle {
         font-size: 2rem;
+    }
+
+    .picOfMe {
+        height: 10rem;
+        width: 10rem;
     }
 
     .aboutText {
@@ -451,7 +519,7 @@ a {
     }
 
     #skills {
-        height: 45vh;
+        height: 40vh;
     }
 
     .skillsSubtitle {
@@ -459,7 +527,7 @@ a {
     }
 
     .skillsIcons {
-        width: 90%;
+        width: 100%;
         padding: 0;
     }
 
@@ -467,13 +535,12 @@ a {
         font-size: 4rem;
     }
 
-    .subtitle {
-        font-size: 2rem;
+    .skillsIconsText {
+        font-size: 1.5rem;
     }
 
-    .projectsContainer {
-        margin-top: 1rem;
-        margin-bottom: 7rem;
+    .subtitle {
+        font-size: 2rem;
     }
 
     .project {
@@ -481,11 +548,77 @@ a {
     }
 
     #contact {
-        height: 45vh;
+        height: 50vh;
     }
 
     .contactText {
+        font-size: 1.3rem;
+    }
+
+    .contactButton {
+        width: 9rem;
+        height: 5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-height: 720px) {
+    #about {
+        height: 55vh;
+    }
+
+    .aboutTitle {
         font-size: 1rem;
+    }
+
+    .picOfMe {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .aboutText {
+        font-size: 1.3rem;
+    }
+
+    #skills {
+        height: 40vh;
+    }
+
+    .skillsSubtitle {
+        font-size: 3rem;
+    }
+
+    .skillsIcons {
+        width: 100%;
+        padding: 0;
+    }
+
+    .skillsIcon {
+        font-size: 7rem;
+    }
+
+    .skillsIconsText {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 3rem;
+    }
+
+    .project {
+        margin: 1rem 1rem;
+    }
+
+    #contact {
+        height: 40vh;
+    }
+
+    .contactText {
+        font-size: 1.3rem;
+    }
+
+    .contactButton {
+        width: 10rem;
+        height: 5rem;
     }
 }
 
