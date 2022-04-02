@@ -137,13 +137,15 @@ a {
 
 #skills {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    height: 45vh;
+    transform: skewY(4deg);
     background-color: #99AB5C;
-    margin-top: 0.6rem;
+    text-align: center;
 }
 
 .skillsSubtitle {
-    transform: skewY(-5deg);
+    transform: skewY(-4deg);
     color: azure;
     font-family: 'Bree Serif', serif;
 }
@@ -151,34 +153,25 @@ a {
 .subtitle {
     font-family: 'Bree Serif', serif;
     color: azure;
-
-}
-
-.skillsIconsContainer {
-    display: flex;
-    justify-content: center;
-    background-color: #99AB5C;
-    margin-top: -1rem;
 }
 
 .skillsIcons {
-    width: 100%;
+    margin: 0 auto;
 }
 
 .skillsIcon {
     list-style: none;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0.2rem;
     display: inline-block;
-    font-size: 1rem;
     padding: 0.2rem 0.5rem;
     color: azure;
-    font-size: 3rem;
+    font-size: 7rem;
     transform: skewY(-5deg);
 }
 
 .skillsIconsText {
     display: block;
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -198,31 +191,7 @@ a {
     background-color: #5c99ab;
 }
 
-.projectOne {
-    display: flex;
-    background-color: azure;
-    height: 55vh;
-    width: 55vh;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    border-radius: 15%;
-    margin-top: 2rem;
-}
-
-.projectTwo {
-    display: flex;
-    background-color: azure;
-    height: 55vh;
-    width: 55vh;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    border-radius: 15%;
-    margin-top: 2rem;
-}
-
-.projectThree {
+.project {
     display: flex;
     background-color: azure;
     height: 55vh;
@@ -343,38 +312,11 @@ a {
     font-size: 1rem;
     background-color: azure;
 }
-.skew {
-    transform: skewY(5deg);
-}
+
 .skew2 {
     transform: skewY(-5deg);
     background-color: #99AB5C;
 }
-@media screen and (min-width: 1600px) and (min-height: 992px){
-    .heroTitle {
-        font-size: 5rem;
-    }
-    .heroSubtitle {
-        font-size: 2rem;
-        margin-top: -1rem;
-    }
-    .icon {
-        font-size: 4rem;
-        padding: 0.3rem 1rem;
-        margin-right: 1rem;
-    }
-    .media {
-        margin-right: 10rem;
-    }
-    
 
-}
-@media screen and (max-width: 1280px) and (max-height: 802px){
 
-}
-@media screen and (max-width: 768px) and (max-height: 1024px){
-
-}
-@media screen and (max-width: 320px) and (max-height: 480px){
-
-}
+@media screen and (min-width: 320px) {}
