@@ -400,7 +400,7 @@ a {
     }
 }
 
-@media screen and (min-width: 654px) {
+@media screen and (min-width: 615px) {
     #about {
         height: 55vh;
     }
@@ -450,6 +450,59 @@ a {
     }
 }
 
+@media screen and (min-width: 768px) {
+    .heroTitle {
+        font-size: 3rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-left: -2.5rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+        padding: 0.5rem 1rem;
+    }
+
+    #about {
+        height: 45vh;
+    }
+
+    .project {
+        width: 45vh;
+        margin: 1rem;
+    }
+
+    #skills {
+        height: 25vh;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .aboutText {
+        font-size: 1rem;
+    }
+
+    .skillsSubtitle {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    #contact {
+        height: 30vh;
+    }
+}
+
 @media screen and (min-width: 926px) {
     #about {
         height: 50vh;
@@ -467,6 +520,45 @@ a {
         height: 35vh;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    #about {
+        height: 55vh;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .aboutText {
+        font-size: 1rem;
+    }
+
+    #skills {
+        height: 40vh;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .skillsSubtitle {
+        font-size: 2rem;
+    }
+
+    .skillsIcons {
+        width: 90%;
+        padding: 0;
+    }
+
+    .skillsIcon {
+        font-size: 5rem;
+    }
+
+    #contact {
+        height: 40vh;
+    }
 }
 
 @media screen and (min-width: 1032px) {
@@ -501,6 +593,31 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
+    .heroTitle {
+        font-size: 3rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1.5rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+        list-style: none;
+        margin: 1rem 1rem;
+        display: inline-block;
+        padding: 0.5rem 0.8rem;
+        color: azure;
+        border: 1px solid azure;
+        border-radius: 100%;
+        transition: .5s;
+    }
+
     #about {
         height: 70vh;
     }
@@ -562,12 +679,37 @@ a {
 }
 
 @media screen and (min-width: 1280px) and (min-height: 720px) {
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .icon {
+        font-size: 2rem;
+        list-style: none;
+        margin: 1rem 1rem;
+        display: inline-block;
+        padding: 0.5rem 0.8rem;
+        color: azure;
+        border: 1px solid azure;
+        border-radius: 100%;
+        transition: .5s;
+    }
+
     #about {
         height: 55vh;
     }
 
     .aboutTitle {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .picOfMe {
@@ -584,7 +726,7 @@ a {
     }
 
     .skillsSubtitle {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .skillsIcons {
@@ -601,11 +743,11 @@ a {
     }
 
     .subtitle {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .project {
-        margin: 1rem 1rem;
+        margin: 3rem 1rem;
     }
 
     #contact {
@@ -622,7 +764,135 @@ a {
     }
 }
 
+@media screen and (min-width: 1366px) {
+    #about {
+        height: 80vh;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+    #skills {
+        height: 40vh;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .skillsSubtitle {
+        font-size: 2rem;
+    }
+
+    .skillsIcons {
+        width: 90%;
+        padding: 0;
+    }
+
+    .skillsIcon {
+        font-size: 5rem;
+    }
+
+    #contact {
+        height: 40vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #about {
+        height: 65vh;
+    }
+
+    .heroTitle {
+        font-size: 4rem;
+    }
+
+    .heroSubtitle {
+        font-size: 2rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+        list-style: none;
+        margin: 1rem 2rem;
+        display: inline-block;
+        padding: 0.5rem 0.9rem;
+        color: azure;
+        border: 1px solid azure;
+        border-radius: 100%;
+        transition: .5s;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .aboutText {
+        font-size: 1.5rem;
+    }
+
+    #skills {
+        height: 35vh;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .skillsSubtitle {
+        font-size: 2rem;
+    }
+
+    .skillsIcons {
+        width: 90%;
+        padding: 0;
+    }
+
+    .skillsIcon {
+        font-size: 5rem;
+    }
+
+    #contact {
+        height: 40vh;
+    }
+}
+
 @media screen and (min-width: 1600px) {
+    .heroTitle {
+        font-size: 4rem;
+    }
+
+    .heroSubtitle {
+        font-size: 2rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+        list-style: none;
+        margin: 1rem 2rem;
+        display: inline-block;
+        padding: 0.5rem 0.9rem;
+        color: azure;
+        border: 1px solid azure;
+        border-radius: 100%;
+        transition: .5s;
+    }
+
     #about {
         height: 65vh;
     }
@@ -675,8 +945,33 @@ a {
 }
 
 @media screen and (min-width: 1900px) {
+    .heroTitle {
+        font-size: 4rem;
+    }
+
+    .heroSubtitle {
+        font-size: 2rem;
+    }
+
+    .socialIcons {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+        list-style: none;
+        margin: 1rem 2rem;
+        display: inline-block;
+        padding: 0.5rem 0.9rem;
+        color: azure;
+        border: 1px solid azure;
+        border-radius: 100%;
+        transition: .5s;
+    }
+
     #about {
-        height: 55vh;
+        height: 70vh;
     }
 
     .aboutTitle {
@@ -688,7 +983,7 @@ a {
     }
 
     #skills {
-        height: 40vh;
+        height: 55vh;
     }
 
     .skillsSubtitle {
@@ -708,5 +1003,13 @@ a {
 
     .skillsIconsText {
         font-size: 2.5rem;
+    }
+
+    .projectTitle {
+        font-size: 3rem;
+    }
+
+    .projectDescription {
+        font-size: 1rem;
     }
 }
