@@ -11,25 +11,25 @@ body {
 }
 
 .navContainer {
-    position: relative;
-    align-items: center;
+    display: flex;
+    height: 2rem;
+    position: fixed;
+    background-color: #5c99ab;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .navBar {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    left: 2.5rem;
-    width: 100%;
 }
 
 .navBarText {
     font-family: 'Bree Serif', serif;
     color: azure;
-    font-size: 0.9rem;
-    padding-left: 0.8rem;
-    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    padding-left: 2rem;
 }
 
 .navBarText:hover {
@@ -593,6 +593,27 @@ a {
 }
 
 @media screen and (min-width: 1280px) {
+    .navContainer {
+        display: flex;
+        height: 4rem;
+        background-color: #5c99ab;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navBarText {
+        font-family: 'Bree Serif', serif;
+        color: azure;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+    }
+
     .heroTitle {
         font-size: 3rem;
     }
@@ -603,7 +624,7 @@ a {
 
     .socialIcons {
         justify-content: center;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .icon {
@@ -636,7 +657,7 @@ a {
     }
 
     #skills {
-        height: 40vh;
+        height: 45vh;
     }
 
     .skillsSubtitle {
@@ -665,7 +686,7 @@ a {
     }
 
     #contact {
-        height: 50vh;
+        height: 55;
     }
 
     .contactText {
