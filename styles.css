@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Bree Serif';
-    src: url(./assets/Bree_Serif/BreeSerif-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url(./assets/Raleway/Raleway-Regular.ttf);
-}
-
 html,
 body {
     width: 100%;
