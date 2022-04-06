@@ -18,11 +18,13 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    z-index: 9;
 }
 
 .navBar {
     display: flex;
     flex-direction: row;
+
 }
 
 .navBarText {
@@ -320,6 +322,10 @@ a {
 
 
 @media screen and (min-width: 320px) {
+    #about {
+        height: 60vh;
+    }
+
     .skillsIcons {
         width: 100%;
         padding: 0;
@@ -339,27 +345,56 @@ a {
     }
 }
 
-@media screen and (min-width: 544px) {
+@media screen and (min-width: 360px) {
     #about {
         height: 55vh;
     }
 
     .skillsIcons {
+        width: 100%;
         padding: 0;
     }
 
+    #skills {
+        height: 45vh;
+    }
+
     .skillsIcon {
-        font-size: 4rem;
+        font-size: 2rem;
     }
 
     #contact {
-        height: 35vh;
+        height: 40vh;
+    }
+
+    .project {
+        height: 45vh;
+        width: 45vh;
+    }
+}
+
+@media screen and (min-width: 390px) {
+    #about {
+        height: 40vh;
+    }
+
+    #skills {
+        height: 30vh;
+    }
+
+    #contact {
+        height: 30vh;
+    }
+
+    .project {
+        height: 20rem;
+        width: 20rem;
     }
 }
 
 @media screen and (min-width: 414px) {
     #about {
-        height: 55vh;
+        height: 40vh;
     }
 
     .aboutTitle {
@@ -379,24 +414,46 @@ a {
     }
 
     #skills {
-        height: 40vh;
+        height: 30vh;
+    }
+
+    .project {
+        width: 20rem;
+        height: 20rem;
     }
 
     #contact {
-        height: 45vh;
+        height: 30vh;
     }
 
     .subtitle {
         font-size: 1.5rem;
     }
 
-    .project {
-        width: 50vh;
+    .contactText {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    #about {
         height: 45vh;
     }
 
-    .contactText {
-        font-size: 1rem;
+    #skills {
+        height: 40vh;
+    }
+
+    .skillsIcons {
+        width: 85%;
+    }
+
+    .skillsIcon {
+        font-size: 3rem;
+    }
+
+    #contact {
+        height: 40vh;
     }
 }
 
@@ -474,8 +531,18 @@ a {
     }
 
     .project {
-        width: 45vh;
+        width: 20rem;
+        height: 20rem;
         margin: 1rem;
+    }
+
+    .projectTitle {
+        font-size: 2rem;
+
+    }
+
+    .projectDescription {
+        font-size: 0.7rem;
     }
 
     #skills {
@@ -501,6 +568,34 @@ a {
     #contact {
         height: 30vh;
     }
+}
+
+@media screen and (min-width: 800px) {
+    #about {
+        height: 35vh;
+    }
+
+    .picOfMe {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    #skills {
+        height: 20vh;
+    }
+
+    .skillsIcon {
+        font-size: 4.5rem;
+    }
+
+    #contact {
+        height: 25vh;
+    }
+
 }
 
 @media screen and (min-width: 926px) {
@@ -759,7 +854,7 @@ a {
     }
 
     .project {
-        margin: 1rem 1rem;
+        margin: 1.5rem 1rem;
     }
 
     #contact {
@@ -820,7 +915,7 @@ a {
     }
 
     #skills {
-        height: 45vh;
+        height: 55vh;
     }
 
     .skillsSubtitle {
@@ -1109,5 +1204,97 @@ a {
 
     .projectDescription {
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .navBarText {
+        font-size: 3rem;
+        padding-left: 3rem;
+    }
+
+    .heroTitle {
+        font-size: 5rem;
+    }
+
+    .heroSubtitle {
+        font-size: 3rem;
+    }
+
+    .icon {
+        font-size: 4rem;
+        padding: 1rem 1.3rem;
+    }
+
+    #about {
+        height: 55vh;
+    }
+
+    .aboutTitle {
+        font-size: 4rem;
+    }
+
+    .picOfMe {
+        width: 13.5rem;
+        height: 13.5rem;
+    }
+
+    .aboutText {
+        font-size: 2.5rem;
+    }
+
+    #skills {
+        height: 45vh;
+    }
+
+    .skillsIconsText {
+        font-size: 3rem;
+    }
+
+    .project {
+        height: 40rem;
+        width: 40rem;
+        margin-bottom: 10rem;
+    }
+
+    .projectTitle {
+        font-size: 4rem;
+    }
+
+    .projectLogo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .projectDescription {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        width: 15rem;
+        height: 5rem;
+    }
+
+    .githubLink {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 4rem;
+    }
+
+    #contact {
+        height: 35vh;
+    }
+
+    .backToTop {
+        width: 10rem;
+        height: 10rem;
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+    .footerText {
+        font-size: 2rem;
     }
 }
