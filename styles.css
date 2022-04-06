@@ -54,6 +54,7 @@ a {
 
 .heroTitle {
     font-family: 'Bree Serif', serif;
+    font-weight: bold;
     text-align: center;
     color: azure;
 }
