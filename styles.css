@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@font-face {
+    font-family: 'Bree Serif';
+    src: url(./assets/Bree_Serif/BreeSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./assets/Raleway/Raleway-Regular.ttf);
+}
 
 html,
 body {
@@ -396,9 +403,11 @@ a {
     .heroSubtitle {
         padding: 0rem 0.5rem;
     }
+
     .icon {
         padding: 0.4rem 0.6rem;
     }
+
     #about {
         height: 40vh;
     }
