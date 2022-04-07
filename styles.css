@@ -7,42 +7,34 @@ body {
     background-color: #5c99ab;
 }
 
-.navContainer {
-    display: flex;
-    height: 2rem;
-    position: fixed;
-    background-color: #5c99ab;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    z-index: 9;
-}
-
-.navBar {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.navBarText {
-    font-family: 'Bree Serif', serif;
-    color: azure;
-    font-size: 1rem;
-    padding-left: 1.5rem;
-}
-
-.navBarText:hover {
-    text-decoration: underline;
-    text-decoration-color: azure;
-}
-
 a {
     text-decoration: none;
 }
 
-#hero {
+.container {
     background-image: url("./assets/hero.jpg");
     background-size: cover;
+    height: 100vh;
+}
+
+.navBar {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    color: azure;
+    font-size: 1rem;
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.navBarTexts {
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+#hero {
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -361,6 +353,7 @@ a {
         height: 55vh;
         width: 50vh;
     }
+
     .projectTitle {
         font-family: 'Fjalla One', sans-serif;
     }
@@ -628,9 +621,10 @@ a {
 }
 
 @media screen and (min-width: 926px) {
-    .heroTitle{
+    .heroTitle {
         font-family: 'Bree Serif', serif;
     }
+
     #about {
         height: 50vh;
     }
@@ -639,12 +633,15 @@ a {
         font-size: 2rem;
         font-family: 'Bree Serif', serif;
     }
+
     .skillsSubtitle {
         font-family: 'Bree Serif', serif;
     }
+
     .skillsIcon {
         font-size: 4.5rem;
     }
+
     .subtitle {
         font-family: 'Bree Serif', serif;
     }
