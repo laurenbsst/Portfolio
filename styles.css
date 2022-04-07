@@ -361,6 +361,9 @@ a {
         height: 55vh;
         width: 50vh;
     }
+    .projectTitle {
+        font-family: 'Fjalla One', sans-serif;
+    }
 }
 
 @media screen and (min-width: 360px) {
@@ -416,7 +419,7 @@ a {
     }
 
     .icon {
-        padding: 0.4rem 0.6rem;
+        padding: 0.3rem 0.6rem;
     }
 
     #about {
@@ -449,7 +452,7 @@ a {
     }
 
     #contact {
-        height: 30vh;
+        height: 40vh;
     }
 
     .subtitle {
@@ -625,16 +628,25 @@ a {
 }
 
 @media screen and (min-width: 926px) {
+    .heroTitle{
+        font-family: 'Bree Serif', serif;
+    }
     #about {
         height: 50vh;
     }
 
     .aboutTitle {
         font-size: 2rem;
+        font-family: 'Bree Serif', serif;
     }
-
+    .skillsSubtitle {
+        font-family: 'Bree Serif', serif;
+    }
     .skillsIcon {
         font-size: 4.5rem;
+    }
+    .subtitle {
+        font-family: 'Bree Serif', serif;
     }
 
     #contact {
@@ -1130,7 +1142,7 @@ a {
     }
 
     #skills {
-        height: 45vh;
+        height: 50vh;
     }
 
     .skillsSubtitle {
