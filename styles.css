@@ -28,6 +28,12 @@ a {
     flex-direction: row;
 }
 
+.navBar a {
+    color: azure;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+}
+
 .navBarTexts {
     padding: 0rem 0.5rem;
     margin-top: 0.5rem;
@@ -560,6 +566,7 @@ a {
 
     .projectTitle {
         font-size: 2rem;
+        font-family: 'Bree Serif', serif;
 
     }
 
